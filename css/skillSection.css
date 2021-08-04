@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.skills{
+  /* margin-top: 205px; */
+  background:whitesmoke;
+  /* #ddd6f3 → #faaca8 */
+  /* background-image: linear-gradient(to bottom right, #ddd6f3, #faaca8); */
+  text-align: center;
+  /* border-top: 3px black solid; */
+}
+.skills h1{
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #3498db;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.skill{
+  display: inline-block;
+  width: calc(100% / 6);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.skill:hover{
+  background: #ddd;
+}
+.skill i{
+  color: #3498db;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.skill h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+.skill p{
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media only screen and (max-width:300px)
+{
+  .skill img{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .skill{
+    width: 30%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .skill{
+    width: 50%;
+  }
+}

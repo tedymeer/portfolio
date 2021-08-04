@@ -1,0 +1,52 @@
+.animatedText {
+  
+    font-family: 'Raleway', sans-serif;
+    
+    margin-left: 5%;
+    /* padding: 1em 7em; */
+    font-size: 18px;
+    color: #000000;
+    /* color: #000080; */
+    flex: 50%;
+    text-align:center;
+}
+  
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 3.5em; }
+
+
+
+  @media only screen and (max-width: 767px) {
+    .animatedText {
+       font-size: 11px;
+    }
+    
+      }
+
+  @media only screen and (min-width: 768px) and (max-width:1280px) {
+    .animatedText {
+       font-size: 16px;
+       flex:55%;
+      }
+      .profilepic{
+        flex:45%;
+      }
+    
+      }
+
+
+      @media (min-width: 1281px) {
+        .animatedText {
+          font-size: 19px;
+          flex:57%;
+          
+       }
+       .profilepic{
+        flex:43%;
+      }
+     
+       
+        }

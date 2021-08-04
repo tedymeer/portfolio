@@ -1,0 +1,30 @@
+#myedu h1{
+    
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    
+  }
+
+.education {
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+}   
+  .flexitem{
+    margin: 5px;
+    width: fit-content;
+    /* border: 2px solid red; */
+  }
+  h2{
+      text-align: center;
+  }
+  .flexitem:hover{
+    background: #ddd;
+    cursor: pointer;
+  }

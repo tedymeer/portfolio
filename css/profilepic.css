@@ -1,0 +1,42 @@
+@media only screen and (max-width:700px){
+#full{
+   display: none;
+}
+   .profilepic{
+
+
+      flex: 50%;
+      text-align: center;
+  
+  
+   }
+}
+
+
+ @media only screen and (min-width: 701px) and (max-width: 959px) {
+  
+   #full{
+      display: none;
+   }
+
+    .profilepic{
+         margin-top: 9%;
+        text-align: left;
+        flex: 30%;
+    
+     }
+    } 
+          
+     @media only screen and (min-width: 960px) {
+      #circle{
+         display: none;
+      }
+        .profilepic{
+    
+    
+            text-align: left;
+            flex: 25%;
+        
+         }
+    
+        }
